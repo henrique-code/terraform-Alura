@@ -22,6 +22,20 @@ Antes de começar, você vai precisar:
    git clone https://github.com/henrique-code/terraform-Alura
    cd terraform-Alura
 
-2. **acessar instancia da aws:**
-Acessar a instancia via SSH, e verificar o arquivo index.html alterar e caso necessario.
+2. **Alterar arquivo:**
+   Alterar no arquivo main.tf o objeto "key_name" substituir pelo nome real da sua chave de acesso pem da AWS
+
+3. **Inicie o Terraform:**
+   ```bash
+   terraform init
+   ```
+
+4. **Aplique a configuração:**
+   ```bash
+   terraform plan
+   terraform apply
+   ```
+
+5. **acessar instancia da aws:**
+   Acessar a instancia via SSH, e verificar se o arquivo index.html foi criado.
 
