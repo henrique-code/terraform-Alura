@@ -23,5 +23,5 @@ Antes de começar, você vai precisar:
    cd terraform-Alura
 
 2. **acessar instancia da aws:**
-Acessar a instancia via SSH, e verificar a criaçado do conteudo html.
+Acessar a instancia via SSH, e verificar o arquivo index.html alterar e caso necessario.
 
