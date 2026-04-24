@@ -36,13 +36,12 @@ Antes de começar, você vai precisar:
    terraform apply
    ```
    
-5. **Ronomei o ip do arquivo hosts:**
+5. **Ronomeie o ip do arquivo hosts:**
    E necessario alterar o ip do arquivo hosts, para o ipv4 da sua maquina da AWS
    
 6. **Rode o ansible:**
    ```bash
    ansible-playbook playbook.yml -u ubuntu --private-key "sua key aqui.pem" -i hosts.yml
-   terraform apply
    ```
 7. **acessar instancia da aws:**
    Acessar a instancia via SSH, e verifique se o arquivo index.html foi criado.
